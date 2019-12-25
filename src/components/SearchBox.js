@@ -4,7 +4,7 @@ const SearchBox = (props) => {
     return(
         <div className='form-inline justify-content-center pt-3 pb-3'>
             <input
-                area-label='Search Robots'
+                aria-label='Search Robots'
                 className='form-control'
                 type='search' 
                 placeholder='Search robots'
