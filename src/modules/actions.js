@@ -33,6 +33,7 @@ export const requestAction = () => (dispatch) => {
     fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => {
+            users.unshift({ id: 0, name: 'Hey you!', email: 'special-one@mail.com' });
             for (let user of customUsers) {
                 users.push({ id: user.id, name: user.name, email: user.name + '@mail.com' });
             };            
