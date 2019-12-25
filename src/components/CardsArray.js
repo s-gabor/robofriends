@@ -4,7 +4,7 @@ import ErrorBoundry from '../containers/ErrorBoundry';
 
 const CardsArray = ({robots}) => {
     return(
-        <div className='d-flex justify-content-around flex-wrap'>
+        <div className='d-flex justify-content-around flex-wrap mt-3 mb-3'>
             <ErrorBoundry>
                 {
                     robots.map(robot => {
