@@ -68,3 +68,42 @@ A parent feeds state into a child component and as soon as the child component r
 #### [Redux-Saga](https://redux-saga.js.org)
 
 #### [imutable-js](https://github.com/immutable-js/immutable-js)
+
+
+## 6. Testing
+
+### Types of tests
+1. Unit tests
+2. Integration tests
+3. Automation tests
+
+### Testing libraries
+1. testing library (Jasmine, Jest, Mocha)
+2. assertion library (Jasmine, Jest, Chai)
+3. test runner (Jasmine, Jest, Mocha, Karma)
+4. mocks, spies and stubs(Jasmine, Jest, Sinon.js)
+5. code coverage(Istanbul, Jest)
+
+### Unit tests
+* should cover all small pure functions
+* easy with fp
+* react components are pure functions(dumb components)
+* don't test the contract(connection between things: server-db, fn-fn)
+
+### Integration tests
+* cross communication between different unit of tests
+
+### Automation tests
+* end-to-end testing
+* UI tests - running in a browser(need to
+* simulate user behaviour)
+* hardest to set up(TestCafe, cypress...)
+* longer time(different browsers, devices...), cost more to run
+* run them not so often(once a day/week, on release...)
+
+### Final note on testing
+
+
+### Testing React apps
+
+#### [Enzyme](https://airbnb.io/enzyme/)
