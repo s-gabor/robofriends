@@ -1,3 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`expect to render Card component 1`] = `ShallowWrapper {}`;
+exports[`renders correctly 1`] = `
+<div
+  className="bg-light m-3 shadow rounded grow"
+>
+  <img
+    alt="robots"
+    className="rounded-top"
+    src="https://robohash.org/undefined.png?size=220x220&bgset=bg1"
+  />
+  <div
+    className="text-center"
+  >
+    <h5 />
+    <p />
+  </div>
+</div>
+`;
