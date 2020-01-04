@@ -23,7 +23,7 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "https://samigabor.github.io/robofriends",
+  "start_url": ".",
   "display": "standalone",
   "prefer_related_applications": true,
   "related_applications": [
