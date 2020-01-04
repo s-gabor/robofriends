@@ -23,8 +23,15 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://samigabor.github.io/robofriends",
   "display": "standalone",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "io.github.samples.apps.iosched"
+    }
+  ],
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
